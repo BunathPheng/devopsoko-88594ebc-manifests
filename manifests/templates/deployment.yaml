@@ -17,7 +17,6 @@ spec:
       labels:
         app: devopsoko-88594ebc
     spec:
-      serviceAccountName: ingress-manager
       containers:
         - name: devopsoko-88594ebc
           image: docker.io/phengbunath/devopsoko-88594ebc:1
